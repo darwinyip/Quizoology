@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quizoology</string>
+    <string name="q1">1. What\'s your favorite animal? (This one is a freebie)</string>
+    <string name="q1_a">Your answer here</string>
+    <string name="q2">2. Which of these animals is meows?</string>
+    <string name="q2_a1">Rat</string>
+    <string name="q2_a2">Dog</string>
+    <string name="q2_a3">Cat</string>
+    <string name="q2_a4">Snake</string>
+    <string name="q3">3. Select the animals that lay eggs.</string>
+    <string name="q3_a1">Hen</string>
+    <string name="q3_a2">Dolphin</string>
+    <string name="q3_a3">Monkey</string>
+    <string name="q3_a4">Fish</string>
+    <string name="q4">4. From the images below, which one is a predator?</string>
+    <string name="q4_a1">Giraffe</string>
+    <string name="q4_a2">Lion</string>
+    <string name="submit">Submit</string>
+    <string name="bad_result">"You've got %1$d/4 correct. Please try again."</string>
+    <string name="freebie">" Also, why didn\'t you answer the 1st question?? It was free!!"</string>
+    <string name="good_result">"You got all the answers correct! By the way, my favorite animal is also the %1$s!"</string>
+    <string name="desc_giraffe">Image of a giraffe</string>
+    <string name="desc_lion">Image of a lion</string>
+</resources>
