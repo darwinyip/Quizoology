@@ -33,10 +33,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void checkAnswers(View view) {
         int results = 0;
-        boolean freebie = false;
+
         String q1_a = q1_edittext.getText().toString();
-        if (!q1_a.isEmpty()) {
-            freebie = true;
+        if (q1_a.equals("21") || q1_a.toLowerCase().equals("twenty one")) {
             results += 1;
         }
 
@@ -53,13 +52,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (results < 4) {
-            String text = getString(R.string.bad_result, results);
-            if (!freebie) {
-                text += getString(R.string.freebie);
-            }
-            Toast.makeText(this, text, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.bad_result, results), Toast.LENGTH_LONG).show();
         } else {
-            Toast.makeText(this, getString(R.string.good_result, q1_a), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.good_result), Toast.LENGTH_LONG).show();
         }
     }
 }
